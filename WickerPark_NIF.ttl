@@ -1,0 +1,20 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/document293#char=0,66>
+    a       nif:RFC5147String, nif:String ,nif:Context;
+    nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+    nif:endIndex    "66"^^xsd:nonNegativeInteger;
+    nif:isString    "Wicker Park is a 2004 American psychological drama mystery film..."^^xsd:string .
+    
+<http://example.org/document293#char=0,11>
+  a       nif:RFC5147String, nif:String, nif:Phrase;
+  nif:anchorOf    "Wicker Park"^^xsd:string;
+  nif:beginIndex  "0"^^xsd:nonNegativeInteger;
+  nif:endIndex    "11"^^xsd:nonNegativeInteger;
+  nif:referenceContext  <http://siege.ege.edu.tr/document293#char=0,66>;
+  itsrdf:taClassRef <http://dbpedia.org/ontology/Film>;
+  itsrdf:taIdentRef <http://dbpedia.org/resource/Wicker_Park_(film)>.
