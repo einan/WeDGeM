@@ -2,7 +2,7 @@
 
 WeDGeM is a multilingual evaluation set generator for specific domains using Wikipedia and DBpedia. Wikipedia category pages and DBpedia taxonomy are used for adjusting domain-specific annotated text generation. Wikipedia disambiguation pages are applied to determine the ambiguity level of the generated texts. Based on these texts, a use case for well-known Entity Linking systems supporting English and Turkish texts are evaluated in the movie domain.
 
-The generated datasets are added to well-known evaluation framework called GERBIL to observe the performance of popular Entity Linking systems integrated to [GERBIL](http://aksw.org/Projects/GERBIL.html). In this study, [Babelfy](http://babelfy.org/) and [DBpedia Spotlight](http://demo.dbpedia-spotlight.org/) are selected as integrated systems from GERBIL supporting both English and Turkish texts.
+The generated datasets are added to well-known evaluation framework called [GERBIL](http://aksw.org/Projects/GERBIL.html) to observe the performance of popular Entity Linking systems integrated to GERBIL. In this study, [Babelfy](http://babelfy.org/) and [DBpedia Spotlight](http://demo.dbpedia-spotlight.org/) are selected as integrated systems from GERBIL supporting both English and Turkish texts.
 
 ## If you want to use WeDGeM in your studies, please cite the following paper:
 
